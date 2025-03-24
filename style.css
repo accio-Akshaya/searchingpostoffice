@@ -1,0 +1,198 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.section p {
+    font-size: 24px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    width: 50%;
+}
+
+.section:nth-child(odd) {
+    background-color: black;
+    color: #575A85;
+}
+
+.section:nth-child(even) {
+    background-color: #575A85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="button"] {
+    width: 345px;
+    height: 67px;
+    border-radius: 10px;
+    background-color: #575A85;
+    border-color: #B8BCCC;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin-left: 240px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#ipDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5%;
+    font-weight: 700;
+    color: #B8BCCC;
+}
+
+
+#ip-Ads {
+    font-size: x-large;
+    padding-bottom: 15px;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.first-line,
+.second-line {
+    display: flex;
+    gap: 10vw;
+    height: 4vh;
+    font-size: large;
+}
+
+#map {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(87, 90, 133, 1);
+}
+
+#map p {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(184, 188, 204, 1);
+    margin-bottom: 20px;
+}
+
+/* Mpre Info */
+#moreInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+#moreInfo>p {
+    align-self: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: rgba(184, 188, 204, 1);
+}
+
+#moreInfo>div p {
+    color: rgba(184, 188, 204, 0.5);
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 3vw;
+}
+
+#postOfficeList {
+    text-align: center;
+    color: rgba(184, 188, 204, 1);
+}
+
+.nearYou {
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+#searchbox {
+    width: 93vw;
+    margin-top: 10px;
+    height: 90px;
+    border: 3px solid rgba(87, 90, 133, 1);
+}
+
+input[placeholder="Search By Name"] {
+    font-size: 1rem;
+    color: rgba(184, 188, 204, 1);
+
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: .1vw;
+}
+
+#cards {
+    padding: 30px;
+    color: rgba(184, 188, 204, 1);
+}
+
+#cards>div {
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+#cards>div>p {
+    background-color: #575a85;
+    padding: 13px;
+    left: 2rem;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; /* Adjust margin if needed */
+}
+
+.col {
+    flex: 0 0 calc(50% - 20px); 
+    padding: 10px; 
+    box-sizing: border-box;
+    background-color: #575A85; 
+    color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 0 10px 20px 10px; 
+}
